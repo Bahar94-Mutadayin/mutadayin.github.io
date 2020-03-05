@@ -1,0 +1,82 @@
+body{
+  background-color:yellow;
+
+}
+/*.todoContainer{
+  min-width:100%;
+  min-height:100%;
+  display:block;
+  position:absolute;
+  margin-right: 30px;
+}*/
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+.done {
+  background: #888;
+  color: black;
+  text-decoration: line-through;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 6px 10px 30px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 25px;
+  transition: 0.2s;
+  margin-top: 10px;
+  border-radius:8px;
+  min-height: 6vh;
+  min-width: 50%;
+  margin-left: 50px;
+  margin-right: 50px; 
+
+}
+.closeButton{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom:0;
+  padding: auto;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+input {
+  margin-left:100px;
+  border: 1px dark;
+  border-radius: 0;
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  position: relative;
+}
+h1{
+  min-width:40vh;
+  margin-left: 100px;
+  border-radius:6px;
+}
+.empty{
+  max-height: 50vh;
+}
+.btn{
+  padding-left:auto;
+}
